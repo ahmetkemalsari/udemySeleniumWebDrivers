@@ -9,6 +9,7 @@ public class BasePage {
 
     public BasePage(WebDriver driver) {
         this.driver = driver;
+        System.out.println("test");
     }
     public WebElement find(By locator){
         return driver.findElement(locator);
