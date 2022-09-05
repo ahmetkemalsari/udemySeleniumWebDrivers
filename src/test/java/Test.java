@@ -7,7 +7,6 @@ public class Test extends BaseTest {
     public void searchOnGoogle(){
         homePage = new HomePage(driver);
         homePage.loginToFacebook("brn_mskn@hotmail.com","aKs.14159");
-        system.println("jenkins test");
     }
 
 
